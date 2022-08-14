@@ -11,6 +11,12 @@
 		AF1DC78528A8BE3900D2BA16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1DC78428A8BE3900D2BA16 /* ContentView.swift */; };
 		AF1DC78728A8BE3A00D2BA16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1DC78628A8BE3A00D2BA16 /* Assets.xcassets */; };
 		AF1DC78A28A8BE3A00D2BA16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1DC78928A8BE3A00D2BA16 /* Preview Assets.xcassets */; };
+		AF1DC79128A8BEE800D2BA16 /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1DC79028A8BEE800D2BA16 /* PlayerList.swift */; };
+		AF1DC79328A8C17300D2BA16 /* Carculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1DC79228A8C17300D2BA16 /* Carculator.swift */; };
+		AF1DC79528A8C53000D2BA16 /* PlayerListOnGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1DC79428A8C53000D2BA16 /* PlayerListOnGame.swift */; };
+		AF1DC79728A8C87500D2BA16 /* ReturnKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1DC79628A8C87500D2BA16 /* ReturnKey.swift */; };
+		AF1DC79928A8C96E00D2BA16 /* CaculatorNumbers1-9.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1DC79828A8C96E00D2BA16 /* CaculatorNumbers1-9.swift */; };
+		AF1DC79B28A8CE8200D2BA16 /* PlayerListIIsEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1DC79A28A8CE8200D2BA16 /* PlayerListIIsEditing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		AF1DC78428A8BE3900D2BA16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF1DC78628A8BE3A00D2BA16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF1DC78928A8BE3A00D2BA16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF1DC79028A8BEE800D2BA16 /* PlayerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerList.swift; sourceTree = "<group>"; };
+		AF1DC79228A8C17300D2BA16 /* Carculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carculator.swift; sourceTree = "<group>"; };
+		AF1DC79428A8C53000D2BA16 /* PlayerListOnGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListOnGame.swift; sourceTree = "<group>"; };
+		AF1DC79628A8C87500D2BA16 /* ReturnKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnKey.swift; sourceTree = "<group>"; };
+		AF1DC79828A8C96E00D2BA16 /* CaculatorNumbers1-9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CaculatorNumbers1-9.swift"; sourceTree = "<group>"; };
+		AF1DC79A28A8CE8200D2BA16 /* PlayerListIIsEditing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListIIsEditing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				AF1DC78228A8BE3900D2BA16 /* MonopolyCounter2App.swift */,
 				AF1DC78428A8BE3900D2BA16 /* ContentView.swift */,
+				AF1DC79228A8C17300D2BA16 /* Carculator.swift */,
+				AF1DC79828A8C96E00D2BA16 /* CaculatorNumbers1-9.swift */,
+				AF1DC79628A8C87500D2BA16 /* ReturnKey.swift */,
+				AF1DC79028A8BEE800D2BA16 /* PlayerList.swift */,
+				AF1DC79A28A8CE8200D2BA16 /* PlayerListIIsEditing.swift */,
+				AF1DC79428A8C53000D2BA16 /* PlayerListOnGame.swift */,
 				AF1DC78628A8BE3A00D2BA16 /* Assets.xcassets */,
 				AF1DC78828A8BE3A00D2BA16 /* Preview Content */,
 			);
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF1DC78528A8BE3900D2BA16 /* ContentView.swift in Sources */,
+				AF1DC79728A8C87500D2BA16 /* ReturnKey.swift in Sources */,
+				AF1DC79128A8BEE800D2BA16 /* PlayerList.swift in Sources */,
+				AF1DC79528A8C53000D2BA16 /* PlayerListOnGame.swift in Sources */,
+				AF1DC79928A8C96E00D2BA16 /* CaculatorNumbers1-9.swift in Sources */,
 				AF1DC78328A8BE3900D2BA16 /* MonopolyCounter2App.swift in Sources */,
+				AF1DC79328A8C17300D2BA16 /* Carculator.swift in Sources */,
+				AF1DC79B28A8CE8200D2BA16 /* PlayerListIIsEditing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +298,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,7 +327,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
